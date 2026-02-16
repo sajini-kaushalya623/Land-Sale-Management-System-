@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Land Sale Management System</title>
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- ========== HEADER & NAVIGATION ========== -->
+    <header>
+        <nav>
+            <div class="logo">Land Sale Management</div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#available-lands">Available Lands</a></li>
+                <li><a href="#register-land">Register Land</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ========== HERO SECTION ========== -->
+    <section class="hero" id="home">
+        <h1>Find and Manage Land Easily</h1>
+        <p>Discover premium land opportunities and manage your property investments with our comprehensive land sale management platform. Your journey to land ownership starts here.</p>
+        <a href="#available-lands" class="cta-button">View Lands</a>
+    </section>
+
+    <!-- ========== AVAILABLE LANDS SECTION ========== -->
+    <section id="available-lands">
+        <h2 class="section-title">Available Lands</h2>
+        <p class="section-subtitle">Explore our curated selection of premium land properties across prime locations</p>
+        
+        <div class="lands-grid">
+            <!-- Land Card 1 -->
+            <div class="land-card">
+                <div class="land-image">
+                    <span>🌾</span>
+                    <div class="status-badge status-available">Available</div>
+                </div>
+                <div class="land-details">
+                    <h3 class="land-location">Green Valley Estate</h3>
+                    <div class="land-info">
+                        <div class="info-item">
+                            <span class="info-label">Size</span>
+                            <span class="info-value">25 Perches</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Price</span>
+                            <span class="info-value">$45,000</span>
+                        </div>
+                    </div>
+                    <button class="view-details-btn" onclick="showLandDetails('Green Valley Estate', '25 Perches', '$45,000', 'Available')">View Details</button>
+                </div>
+            </div>
+
+            <!-- Land Card 2 -->
+            <div class="land-card">
+                <div class="land-image">
+                    <span>🏡</span>
+                    <div class="status-badge status-available">Available</div>
+                </div>
+                <div class="land-details">
+                    <h3 class="land-location">Riverside Meadows</h3>
+                    <div class="land-info">
+                        <div class="info-item">
+                            <span class="info-label">Size</span>
+                            <span class="info-value">2 Acres</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Price</span>
+                            <span class="info-value">$120,000</span>
+                        </div>
+                    </div>
+                    <button class="view-details-btn" onclick="showLandDetails('Riverside Meadows', '2 Acres', '$120,000', 'Available')">View Details</button>
+                </div>
+            </div>
+
+            <!-- Land Card 3 -->
+            <div class="land-card">
+                <div class="land-image">
+                    <span>🌳</span>
+                    <div class="status-badge status-sold">Sold</div>
+                </div>
+                <div class="land-details">
+                    <h3 class="land-location">Hillside Paradise</h3>
+                    <div class="land-info">
+                        <div class="info-item">
+                            <span class="info-label">Size</span>
+                            <span class="info-value">40 Perches</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Price</span>
+                            <span class="info-value">$75,000</span>
+                        </div>
+                    </div>
+                    <button class="view-details-btn" onclick="showLandDetails('Hillside Paradise', '40 Perches', '$75,000', 'Sold')">View Details</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== REGISTER LAND SECTION ========== -->
+    <section id="register-land">
+        <h2 class="section-title">Register Your Land</h2>
+        <p class="section-subtitle">List your property with us and reach potential buyers quickly and efficiently</p>
+        
+        <div class="form-container">
+            <form id="landRegistrationForm">
+                <div class="form-group">
+                    <label for="ownerName">Owner Name *</label>
+                    <input type="text" id="ownerName" name="ownerName" placeholder="Enter full name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="landLocation">Land Location *</label>
+                    <input type="text" id="landLocation" name="landLocation" placeholder="Enter land address or location" required>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="landSize">Land Size *</label>
+                        <input type="text" id="landSize" name="landSize" placeholder="e.g., 25 Perches" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="price">Price *</label>
+                        <input type="text" id="price" name="price" placeholder="e.g., $45,000" required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="contactNumber">Contact Number *</label>
+                    <input type="tel" id="contactNumber" name="contactNumber" placeholder="Enter phone number" required>
+                </div>
+
+                <button type="submit" class="submit-btn">Submit Registration</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- ========== CONTACT SECTION ========== -->
+    <section id="contact">
+        <h2 class="section-title">Contact Us</h2>
+        <p class="section-subtitle">Get in touch with our team for any inquiries or assistance</p>
+        
+        <div class="contact-grid">
+            <div class="contact-item">
+                <div class="contact-icon">📧</div>
+                <h3>Email</h3>
+                <p><a href="mailto:info@landsale.com">info@landsale.com</a></p>
+            </div>
+
+            <div class="contact-item">
+                <div class="contact-icon">📱</div>
+                <h3>Phone</h3>
+                <p><a href="tel:+1234567890">+1 (234) 567-890</a></p>
+            </div>
+
+            <div class="contact-item">
+                <div class="contact-icon">📍</div>
+                <h3>Address</h3>
+                <p>123 Land Avenue, Property City, PC 12345</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
+    <footer>
+        <div class="social-icons">
+            <a href="#" title="Facebook">📘</a>
+            <a href="#" title="Twitter">🐦</a>
+            <a href="#" title="Instagram">📷</a>
+            <a href="#" title="LinkedIn">💼</a>
+        </div>
+        <p>&copy; 2024 Land Sale Management System. All rights reserved.</p>
+    </footer>
+
+    <!-- Link to external JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
