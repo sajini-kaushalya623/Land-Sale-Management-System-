@@ -127,7 +127,7 @@ The website uses CSS Grid and Flexbox for layout, with media queries to ensure o
 - **Form Validation**: HTML5 form validation with required fields
 - **Dynamic Alerts**: JavaScript alerts for form submission and land details
 
-## 🛠️ Customization
+##  Customization
 
 ### Changing Colors
 Edit the CSS variables in `styles.css`:
@@ -150,7 +150,7 @@ Copy and modify the land card structure in `index.html`:
 ### Modifying Form Fields
 Add or remove form fields in the Register Land section of `index.html` and update the JavaScript in `script.js` accordingly.
 
-## 📄 Browser Support
+##  Browser Support
 
 - Chrome (latest)
 - Firefox (latest)
@@ -158,7 +158,7 @@ Add or remove form fields in the Register Land section of `index.html` and updat
 - Edge (latest)
 - Opera (latest)
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
@@ -168,21 +168,21 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📝 License
+##  License
 
 This project is open source and available under the [MIT License](LICENSE).
 
-## 👨‍💻 Author
+##  Author
 
 Your Name - [@yourhandle](https://twitter.com/yourhandle)
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - Design inspiration from modern real estate websites
 - Icons using emoji for simplicity and universal support
 - Color scheme inspired by nature and land themes
 
-## 📧 Contact
+## 📧Contact
 
 For questions or suggestions, please contact:
 - Email: info@landsale.com
@@ -190,4 +190,3 @@ For questions or suggestions, please contact:
 
 ---
 
-**Note**: This is a static website for demonstration purposes. To make it fully functional with a backend, you would need to integrate it with a server-side technology (Node.js, PHP, Python, etc.) and a database (MySQL, MongoDB, etc.).
