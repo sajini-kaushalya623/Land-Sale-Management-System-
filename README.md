@@ -2,7 +2,7 @@
 
 A modern, responsive web application for managing land sales and property listings. Built with HTML5, CSS3, and vanilla JavaScript.
 
-## 🌟 Features
+##  Features
 
 - **Responsive Design**: Fully responsive layout that works on desktop, tablet, and mobile devices
 - **Modern UI**: Clean and professional design with green and dark brown nature-themed color scheme
@@ -12,7 +12,7 @@ A modern, responsive web application for managing land sales and property listin
 - **Contact Section**: Easy access to contact information
 - **Interactive Elements**: Hover effects, animations, and mobile menu
 
-## 🎨 Color Scheme
+##  Color Scheme
 
 The website uses a nature-inspired color palette:
 - Primary Green: `#2d5016`
@@ -23,7 +23,7 @@ The website uses a nature-inspired color palette:
 - Light Brown: `#8d6e63`
 - Cream: `#f5f5dc`
 
-## 📁 File Structure
+##  File Structure
 
 ```
 land-sale-management/
@@ -34,7 +34,7 @@ land-sale-management/
 └── README.md          # Project documentation
 ```
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
