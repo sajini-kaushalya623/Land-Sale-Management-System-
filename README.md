@@ -67,7 +67,7 @@ xdg-open index.html
 
 Or simply double-click the `index.html` file.
 
-## 📱 Sections
+##  Sections
 
 ### 1. Header & Navigation
 - Fixed navigation bar
@@ -99,7 +99,7 @@ Or simply double-click the `index.html` file.
 - Social media links
 - Copyright information
 
-## 💻 Technologies Used
+##  Technologies Used
 
 - **HTML5**: Semantic markup and structure
 - **CSS3**: Styling, animations, and responsive design
@@ -112,7 +112,7 @@ Or simply double-click the `index.html` file.
   - Event handling
   - Form validation
 
-## 🎯 Key Features Explained
+##  Key Features Explained
 
 ### Responsive Design
 The website uses CSS Grid and Flexbox for layout, with media queries to ensure optimal display on all screen sizes:
